@@ -21,9 +21,7 @@ The application is console-based. UI components are represented by console messa
 ## Project Structure
 
 ```text
-src/
-└── main/
-    └── java/
+       src/
         ├── app/
         │   ├── Main.java
         │   └── DeliveryApplication.java
@@ -47,9 +45,6 @@ src/
             ├── WindowsFactory.java
             └── MacOSFactory.java
 
-uml/
-├── FactoryMethod.puml
-└── AbstractFactory.puml
 ```
 
 ## Design Patterns
@@ -85,7 +80,7 @@ java -version
 Open the project in IntelliJ IDEA and run:
 
 ```text
-src/main/java/app/Main.java
+src/app/Main.java
 ```
 
 The application asks for two inputs:
